@@ -1,33 +1,5 @@
-# Foundry Starter Kit
+# Smart Contarcts Starter 
 
-<br/>
-<p align="center">
-<a href="https://chain.link" target="_blank">
-<img src="./img/chainlink-foundry.png" width="225" alt="Chainlink Foundry logo">
-</a>
-</p>
-<br/>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smartcontractkit/foundry-starter-kit)
-
-Foundry Starter Kit is a repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, [foundry](https://github.com/gakonst/foundry)!
-
-This repo is based on the [femplate](https://github.com/gakonst/femplate)
-
-You can also check out the similar [dapptools-starter-kit](https://github.com/smartcontractkit/dapptools-starter-kit)
-
-- [Foundry Starter Kit](#foundry-starter-kit)
-- [Installation](#installation)
-  - [Requirements](#requirements)
-  - [Getting Started / Quickstart](#getting-started--quickstart)
-  - [Testing](#testing)
-- [Deploying to a network](#deploying-to-a-network)
-  - [Setup](#setup)
-  - [Deploying](#deploying)
-- [Contributing](#contributing)
-- [Thank You!](#thank-you)
-  - [Resources](#resources)
-    - [TODO](#todo)
 
 # Installation
 
@@ -42,8 +14,8 @@ And you probably already have `make` installed... but if not [try looking here.]
 ## Getting Started / Quickstart
 
 ```sh
-git clone https://github.com/smartcontractkit/foundry-starter-kit.git
-cd foundry-starter-kit
+git clone https://github.com/karolsudol/smart-contracts-starter.git
+cd smart-contracts-starter
 make # This installs the project's dependencies.
 make test
 ```
@@ -116,23 +88,3 @@ Deployer: 0x643315c9be056cdea171f4e7b2222a4ddab9f88d
 Deployed to: 0xec8af3f6c8725cc60e6ecc0009ad9e756e9723e0
 ```
 
-# Contributing
-
-Contributions are always welcome! Open a PR or an issue!
-
-# Thank You!
-
-## Resources
-
--   [Chainlink Documentation](https://docs.chain.link/)
--   [Foundry Documentation](https://onbjerg.github.io/foundry-book/)
-
-### TODO
-
-[ ] Make deployment more modular like in [dapptools-starter-kit](https://github.com/smartcontractkit/dapptools-starter-kit)
-
-[ ] Enable network & contract choice from the command line
-
-[ ] Add scripts that interact with deployed contracts
-
-[ ] Add documentation for running on a local network with hardhat & a forked network
